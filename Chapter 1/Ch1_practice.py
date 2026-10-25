@@ -52,18 +52,18 @@
 # print(sum)    
 
 
-num = 20
-a = 0
-b = 1
-sum = 0
-count = 1
-while(count<=num):
-    print(sum)
-    a = b
-    b = sum 
-    sum = a + b
-    count+=1
-
+# num = 5
+# a = 0
+# b = 1
+# sum = 0
+# count = 1
+# while(count<=num):
+#     print(sum)
+#     a = b
+#     b = sum 
+#     sum = a + b
+#     count+=1
+# print(sum)
 
 
 
@@ -78,6 +78,19 @@ while(count<=num):
 #     b = c
 #     count += 1
 # print(a)
+
+
+a = 20
+b = 78
+
+gcd = 0
+
+i = 1
+while(i<=a):
+    if(a%i == 0 and b%i == 0):
+        gcd = i
+    i+=1
+print(gcd)        
 
 
 
