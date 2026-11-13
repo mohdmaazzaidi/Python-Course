@@ -10,7 +10,7 @@
 # print("Printing Jokes")   ----> Singal line comment 
 """Hello!
 this is my first class 
-----> Multi line comments
+----> Multi line comments ---->
 """ 
 
 # firstName = "Tony"
